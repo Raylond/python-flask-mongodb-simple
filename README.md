@@ -1,7 +1,7 @@
 # [Flask MongoDB - Simple Web App](https://github.com/Raylond/flask-mongodb-simple/)
 
 ## Description
-The concept was to create an app that demonstrates a shopping cart using python, flask and MongoDB.
+The concept was to create an web app that demonstrates adding and remove content from a MongoDB using python and flask.
 
 ## Technologies Used
 ![PYTHON](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
