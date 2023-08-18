@@ -1,4 +1,4 @@
-#[Flask MongoDB Web App - Simple Shopping Cart](https://github.com/MegAgainDev/ai-mlaas-scikit/)
+# [Flask MongoDB Web App - Simple Shopping Cart](https://github.com/Raylond/flask-mongodb-simple/)
 
 ## Description
 The concept was to create an app that demonstrates a shopping cart using python, flask and MongoDB.
