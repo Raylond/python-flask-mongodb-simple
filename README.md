@@ -13,29 +13,22 @@ The concept was to create an app that demonstrates a shopping cart using python,
 ![GIT BADGE](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
 ![GITHUB BADGE](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
 
+## Installation Instructions 
+- Download this repository
+- Download python from https://www.python.org/downloads/
+- Download MongoDB from https://www.mongodb.com/download-center#community
 
-##### Instructions 
-Download python from https://www.python.org/downloads/
+## Execute Python Libraries
+- pip install Flask
+- pip install bson
+- pip install pymongo
 
-Download MongoDB from https://www.mongodb.com/download-center#community
+NOTE: Before running the MongoDB instance, we will create a data folder named "mongo-data" by running the following command in command prompt.  "C:\Program Files\MongoDB\Server\4.0\bin\mongod.exe" --dbpath="C:\mongo-data"
 
-## Python Libraries
->pip install Flask
->pip install bson
->pip install pymongo
+The "C:\mongo-data" folder is used for saving MongoDB files.  By default, it is listening the port 27017.
 
-Before running the mongodb instance, we must create a data folder and run below command in command prompt.
+## Execute Web App
 
-"C:\Program Files\MongoDB\Server\4.0\bin\mongod.exe" --dbpath="C:\mongo-data"
+- Run "python app.py" in Command prompt.
 
-Here C:\mongo-data folder is used for saving mongodb files.
-
-By default, it is listening the port 27017.
-
-##### Download/Clone source code from Github
-
-Run app.py in Command prompt.
-
-python app.py
-
-Your local web server is running in the port 5000 by default.
+Your local web server is running on port 5000 by default.
